@@ -3,7 +3,7 @@
 // you don't need to touch the components.
 // ─────────────────────────────────────────────────────────────
 
-import profilePhoto from '../assets/profile.webp'
+import profilePhoto from '../assets/profile.png'
 
 // Every image in src/assets/logos is loaded automatically by file name.
 // Missing file → the tile shows a fallback icon instead (no build error).
