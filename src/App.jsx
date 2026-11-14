@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Icon } from './components/Icons.jsx'
 import {
-  profile, corePlatforms, about, experience, projects, skills, education, leadership,
+  profile, corePlatforms, about, experience, projects, skills, education, leadership, achievements,
 } from './data/profile.js'
 
 const NAV = [
@@ -273,6 +273,18 @@ function Education() {
             <p className="muted">{leadership.statDetail}</p>
           </div>
         </div>
+        <h3 className="subhead reveal">Achievements</h3>
+        <ul className="achievements">
+          {achievements.map((a, i) => (
+            <li key={a.title} className={`achievement reveal d${(i % 3) + 1}`}>
+              <span className="ach-icon" aria-hidden="true"><Icon.Trophy width="20" height="20" /></span>
+              <div>
+                <p className="ach-title">{a.title}</p>
+                <p className="ach-detail">{a.detail}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   )

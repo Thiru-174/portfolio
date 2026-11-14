@@ -48,7 +48,7 @@ export const profile = {
   // Leave it empty ('') to hide the "Download résumé" button.
   resumeUrl: '',
   email: 'thirumalaivasan174@gmail.com',
-  linkedin: 'https://linkedin.com/in/thirumalaivasan-nedunchezhian-157589225',
+  linkedin: 'https://www.linkedin.com/in/er-thirumalaivasan-nedunchezhian-157589225/',
   github: 'https://github.com/Thiru-174',
 }
 
@@ -176,14 +176,42 @@ export const education = {
   degree: 'B.E. Electronics & Instrumentation Engineering',
   school: 'Kumaraguru College of Technology, Coimbatore',
   // Fill in, e.g. '2021 – 2025'. Leave empty ('') to hide the line.
-  years: '',
+  years: '2021 – 2025',
 }
 
 export const leadership = {
   title: 'President, Department Association',
   org: 'EIE Department, Kumaraguru College of Technology',
-  detail: 'Led the department association and helped build its alumni network.',
+  detail: "Joint Secretary → Secretary → President (2024–25) of the department association, on KCT's Leadership Council.",
   stat: '500+',
   statLabel: 'Alumni community members',
   statDetail: 'EIE Department network',
 }
+
+// Shown in the Education & Leadership section, below the three cards.
+export const achievements = [
+  {
+    title: 'Best Outgoing Student',
+    detail: 'Department of Electronics & Instrumentation Engineering, KCT (2025)',
+  },
+  {
+    title: "Institutional Contributors' Award",
+    detail: 'Kumaraguru Achievers Awards: one of 66 recognised from 1,300+ students in the 2025 batch',
+  },
+  {
+    title: '4× MG Merit Scholarship',
+    detail: 'Awarded four times for academic performance at KCT',
+  },
+  {
+    title: 'Alumnet',
+    detail: 'Started a student–alumni network while leading department association activities (2022–2025)',
+  },
+  {
+    title: 'Alumni reunions',
+    detail: 'Coordinated GAM 2023, DECADE 2023 and the Silver Jubilee meets of the 1999 and 2000 batches',
+  },
+  {
+    title: 'Yugam 2023 – 2025 & placement drives',
+    detail: 'Key organiser of the Yugam festival at department and institution level; placement drive volunteer',
+  },
+]

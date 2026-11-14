@@ -204,6 +204,14 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
 .info .stat-num { font-family: var(--font-head); font-size: 72px; font-weight: 700; line-height: 1; }
 .info .stat-label { margin-top: 8px; font-size: 17px; font-weight: 500; color: var(--text); }
 
+/* ── Achievements ──────────────────────────────────────────── */
+.subhead { margin: 56px 0 20px; font-size: 22px; font-weight: 600; }
+.achievements { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.achievement { display: flex; gap: 14px; align-items: flex-start; padding: 20px; border-radius: 16px; background: var(--surface); border: 1px solid #26262F; }
+.ach-icon { flex: none; width: 40px; height: 40px; border-radius: 10px; background: var(--chip); color: #C084FC; display: grid; place-items: center; }
+.ach-title { font-weight: 600; font-size: 16px; }
+.ach-detail { margin-top: 4px; font-size: 14px; line-height: 1.55; color: var(--text-2); }
+
 /* ── Contact & footer ──────────────────────────────────────── */
 .contact {
   padding: 56px; border-radius: 28px; background: var(--surface); border: 1px solid var(--line-2);
